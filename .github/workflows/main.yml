@@ -24,7 +24,7 @@ jobs:
       with:
         version: 12
     - name: action-yarn
-      uses: comchangs/action-yarn@v0.1-beta
+      uses: bahmutov/npm-install@v1.1.0
       with:
         cmd: install
     - name: Creating Build
